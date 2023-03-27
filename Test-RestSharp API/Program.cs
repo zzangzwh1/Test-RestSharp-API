@@ -11,6 +11,7 @@ namespace Test_RestSharp_API
     {
         static void Main(string[] args)
         {
+            //url for the Test Post
             string url = "https://jsonplaceholder.typicode.com/posts";
             var client = new RestClient(url);
             var request = new RestRequest();
